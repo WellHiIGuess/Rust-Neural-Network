@@ -13,7 +13,7 @@ impl NeuralNetwork {
         }
     }
 
-    pub fn train() {
+    pub fn train(&mut self) {
         // training algorithm
     }
 }

@@ -1,8 +1,9 @@
 mod node;
 mod nueral_network;
 
-use crate::node::Node;
+use nueral_network::NeuralNetwork;
 
 fn main() {
-
+    let mut nw = NeuralNetwork::new(5, 1);
+    
 }
